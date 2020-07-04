@@ -1,0 +1,125 @@
+.login-body, .home-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.heading-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.login-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.panel img {
+  width: 80%;
+}
+
+.image-panel {
+  text-align: center;
+}
+
+.login-panel {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 4rem;
+  align-content: center;
+  padding: 0 60px;
+}
+
+.login-panel p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.module-container {
+  border: 1px solid #dddddd;
+  border-radius: 2px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.module-container .btn-block {
+  display: block;
+  margin: 15px 0 0;
+}
+
+/* Home Page */
+.home-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 2rem;
+}
+
+.home-container {
+  margin: 20px 0;
+}
+
+.home-body {
+  position: relative;
+}
+
+.home-body::after {
+  content: "";
+  background-image: url(/images/github-logo4.png);
+  opacity: 0.05;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.search-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  align-content: center;
+  justify-items: center;
+}
+
+.card {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-font {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+/* Media Queries */
+@media screen and (max-width:1000px) {
+  .login-wrapper {
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+  }
+
+  .panel img {
+    width: 40%;
+  }
+
+  .login-panel {
+    grid-gap: 2rem;
+  }
+
+  .home-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .search-container {
+    text-align: center;
+    width: 100%;
+  }
+}
