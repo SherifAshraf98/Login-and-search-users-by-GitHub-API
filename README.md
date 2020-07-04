@@ -57,7 +57,7 @@ Clone down this repository. You will need `node` and `npm` installed globally on
 
 `localhost:3000`  
 
-## Project Screen Shot(s)
+## Project Screenshots
 #### Login Page
 ![Login Page](https://i.ibb.co/gtSxySh/Git-Hub-output1.png)
 
