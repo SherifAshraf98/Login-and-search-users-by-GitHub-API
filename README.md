@@ -9,14 +9,12 @@ Website that allows user to login by their GitHub account and Search for other g
 * JavaScript
 * Node.js
 * Express
-* Mongoose
 
 ## Project Features
 
-* Create database collection (username and password)
-* Upload CSV file and store it into database
-* Display the content of this CSV file
-* Drop any created database
+* Login automatically using your GitHub account
+* Login using Access Token of your GitHub account
+* Search and display other GitHub users' accounts
 
 #### Website Link:
 
